@@ -2,22 +2,25 @@
 export default {
     colors: {
         dark: '#21212D',
-        light: '#EAEAE5',
+        light: '#F4F4F9',
         black: '#000000',
-        white: '#FFFFFF',
+        white: '#fff',
+        fill: '#fff',
         grey: '#999999',
         primary: '#2555D9',
         secondary: '#727179',
         text: '#21212D',
         secondaryText: '#727179',
         lightText: '#FFFFFF',
-        border: '#C2C2C5',
+        border: '#ADACAD',
         danger: '#FF4C5B',
         success: '#00BF6F',
         warning: '#FFCC1E',
         tab: '#EAEAEB',
-        ghostdark: 'rgba(33,33,45,.5)',
-        mistdark: 'rgba(33,33,45,.05)'
+        plain: 'rgba(195,208,244,.25)',
+        focus: 'rgba(116,146,230,1)',
+        card: '0px 1px 2px 1px rgba(0,0,0,.24)',
+        cardFocus: '0px 0px 0px 3px rgba(116,146,230,1)'
     },
     // layout
     sizes: {
@@ -48,12 +51,13 @@ export default {
 
     // line heights
     lineHeights: {
-        xs: '1.5rem', // 24px
-        sm: '2rem', // 32px
-        md: '3rem', // 48px
-        lg: '4rem', // 64px
-        xl: '5rem', // 80px
-        xxl: '7.5rem' //120px
+        xs: '1rem', // 16px
+        sm: '1.5rem', // 24px
+        md: '2rem', // 32px
+        lg: '3rem', // 48px
+        xl: '4rem', // 64px
+        xxl: '5rem', // 80px
+        xxxl: '7.5rem' //120px
     },
 
     // space (margins/paddings)

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Div } from './components/atoms';
+import { Div, Icon } from './components/atoms';
 import { ThemeProvider } from 'styled-components';
 import theme from './theme';
 
@@ -8,7 +8,7 @@ function App(props) {
   return (
     <ThemeProvider theme={theme}>
       <Div>
-      Hello World
+        <Icon name="home"/>
       </Div>
     </ThemeProvider>
   );

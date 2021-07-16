@@ -15,33 +15,7 @@ import {
   variant
 } from 'styled-system';
 
-// const StyledDiv = styled.div`
-//   ${color}
-//   ${space}
-//   ${border}
-//   ${typography}
-//   ${layout}
-//   ${shadow}
-//   ${flexbox}
-//   ${grid}
-//   ${position}
-//   ${background}
-// `;
-
-
 const StyledDiv = styled('div')(
-  {
-    // ${color}
-    // ${space}
-    // ${border}
-    // ${typography}
-    // ${layout}
-    // ${shadow}
-    // ${flexbox}
-    // ${grid}
-    // ${position}
-    // ${background}
-  },
   color,
   space,
   border,
